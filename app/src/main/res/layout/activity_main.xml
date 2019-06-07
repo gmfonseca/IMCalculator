@@ -99,11 +99,24 @@
             android:id="@+id/imcResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="IMC"
+            android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.757" android:textAlignment="center"/>
+            app:layout_constraintVertical_bias="0.832" android:textAlignment="center"/>
+
+    <TextView
+            android:id="@+id/imcClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.782" android:textAlignment="center"
+            app:layout_constraintHorizontal_bias="0.498"/>
 
 </android.support.constraint.ConstraintLayout>
